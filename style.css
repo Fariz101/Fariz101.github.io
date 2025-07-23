@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+.navbar {
+    position: sticky;
+    background-color: rgb(52, 62, 73);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav-links a:hover {
+    background-color: rgb(83, 83, 83);
+    border-radius: 4px;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                url('https://i.pinimg.com/originals/7d/25/15/7d2515c828752a51201420d2d3ac0eab.gif') no-repeat bottom center/cover;
+    text-align: center;
+    color: white;
+    padding: 120px 20px;
+}
+
+.hero h1, .hero h2 {
+    font-weight: bold;
+}
+
+.hero p {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.buttons .vehicles {
+    background-color: #4caf50;
+    color: white;
+}
+
+.buttons .equipment {
+    background-color: #3b5998;
+    color: white;
+}
+
+.buttons .weapons {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.courses {
+    text-align: center;
+    padding: 60px 30px;
+    background-color: rgb(255, 249, 238);
+}
+
+.courses h3 {
+    margin-bottom: 40px;
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.course {
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.course:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+.course h4 {
+    margin-bottom: 10px;
+}
+
+.course.one { background-color: #1abc9c; }
+.course.two { background-color: #f1c40f; }
+.course.three { background-color: #e74c3c; }
+.course.four { background-color: #3498db; }
+
+.cta {
+    background-color: #eaf5ea;
+    text-align: center;
+    padding: 60px 30px;
+}
+
+.cta button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #1f3c45;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
